@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 import tensorflow as tf
-from keras.layers.legacy_rnn.rnn_cell_impl import GRUCell, LSTMCell
+from keras.layers.rnn import GRUCell, LSTMCell
 from recommenders.models.deeprec.models.sequential.sequential_base_model import (
     SequentialBaseModel,
 )
